@@ -2,6 +2,7 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { App_List } from './pages/List_test'
+import { Props_Function } from './pages/Props_Function'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,8 +18,8 @@ function App() {
           </button>
         </p>
         <p>
-          <App_List/>
-    
+          {/* <App_List/> */}
+    <Props_Function />
         </p>
         <p>
           <a
