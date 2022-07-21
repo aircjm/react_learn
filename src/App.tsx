@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import { App_List } from './pages/List_test'
 import { Props_Function } from './pages/Props_Function'
+import { DestructTest } from './pages/DestructProps'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,8 +19,11 @@ function App() {
           </button>
         </p>
         <p>
+          {/* test  */}
           {/* <App_List/> */}
-    <Props_Function />
+          {/* test props destruct */}
+          <DestructTest/>
+    {/* <Props_Function /> */}
         </p>
         <p>
           <a
