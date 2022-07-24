@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 
-const PropsTest: NextPage = () => {
-  return <div>About</div>
+const PropsTest: NextPage<> = (imgUrl : string) => {
+  return <div>{imgUrl}</div>
 }
 
 
